@@ -34,7 +34,7 @@ class HomeController extends Controller
 
     public static function sendNotification($firebaseToken, $request)
     {
-        $SERVER_API_KEY = 'AAAAqioNgJM:APA91bGGvDr7omUGnrtl2SOLXx6mTQs9yhyfaZSOlBCLtzobh-yWYH4aHIm7bxIeSZBMN7qSpDvPLq0JE30QfXWlwjHOO37daowmaovdQQy1ZUJ5i-ZB6h-UYC2yPMwx9Tpu449wphnJ';
+        $SERVER_API_KEY = '';
 
         $data = [
             "registration_ids" => $firebaseToken,
